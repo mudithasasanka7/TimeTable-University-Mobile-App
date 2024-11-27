@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp">  <!-- Corrected here -->
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvLecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lecturer"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venue"
+        android:textSize="14sp"/>
+
+    <!-- Edit and Delete buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="#00796B"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="#D32F2F"/>
+    </LinearLayout>
+</LinearLayout>
